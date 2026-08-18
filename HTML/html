@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Obra e o Sacrifício de Jesus na Bíblia</title>
+    <!-- Vinculando o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>A Obra e o Sacrifício de Jesus através de toda a Bíblia</h1>
+        <p>Uma linha do tempo scriptural da Redenção</p>
+    </header>
+
+    <div class="container">
+        <!-- Botão interativo que o JavaScript vai controlar -->
+        <button class="theme-btn" id="toggleTheme">Alternar Modo Escuro/Claro</button>
+
+        <!-- Seção 1 -->
+        <h2 class="section-title">1. As Promessas e Profecias (Antigo Testamento)</h2>
+        
+        <div class="verse-card">
+            <p>"Porei inimizade entre você e a mulher, entre a sua descendência e o descendente dela; este lhe ferirá a cabeça, e você lhe ferirá o calcanhar."</p>
+            <span class="reference">Gênesis 3:15 (A primeira promessa do Redentor)</span>
+        </div>
+
+        <div class="verse-card">
+            <p>"Mas ele foi transpassado por causa das nossas transgressões, foi esmagado por causa de nossas iniquidades; o castigo que nos trouxe a paz estava sobre ele, e pelas suas feridas fomos curados."</p>
+            <span class="reference">Isaías 53:5 (O Servo Sofredor)</span>
+        </div>
+
+        <div class="verse-card">
+            <p>"Cães me rodearam; um bando de homens maus me cercou; perfuraram minhas mãos e meus pés."</p>
+            <span class="reference">Salmos 22:16 (A crucificação profetizada)</span>
+        </div>
+
+        <!-- Seção 2 -->
+        <h2 class="section-title">2. A Vida, Ministério e Entrega (Evangelhos)</h2>
+
+        <div class="verse-card">
+            <p>"Pois nem mesmo o Filho do homem veio para ser servido, mas para servir e dar a sua vida em resgate por muitos."</p>
+            <span class="reference">Mateus 20:28 (O propósito de Sua vinda)</span>
+        </div>
+
+        <div class="verse-card">
+            <p>"Tendo-o provado, Jesus disse: 'Está consumado!' Com isso, curvou a cabeça e entregou o espírito."</p>
+            <span class="reference">João 19:30 (A consumação do sacrifício)</span>
+        </div>
+
+        <!-- Seção 3 -->
+        <h2 class="section-title">3. O Significado Teológico (Epístolas)</h2>
+
+        <div class="verse-card">
+            <p>"Mas Deus demonstra seu amor por nós: Cristo morreu em nosso favor quando ainda éramos pecadores."</p>
+            <span class="reference">Romanos 5:8 (O amor demonstrado na cruz)</span>
+        </div>
+
+        <div class="verse-card">
+            <p>"Ele mesmo levou em seu corpo os nossos pecados sobre o madeiro, a fim de que morrêssemos para os pecados e vivêssemos para a justiça; pelas suas feridas vocês foram curados."</p>
+            <span class="reference">1 Pedro 2:24 (A substituição vicária)</span>
+        </div>
+
+        <div class="verse-card">
+            <p>"Pois o que primeiramente lhes transmiti foi o que recebi: que Cristo morreu pelos nossos pecados, segundo as Escrituras, foi sepultado e ressuscitou ao terceiro dia, segundo as Escrituras."</p>
+            <span class="reference">1 Coríntios 15:3-4 (O cerne do Evangelho)</span>
+        </div>
+
+        <!-- Seção 4 -->
+        <h2 class="section-title">4. A Vitória Eterna (Apocalipse)</h2>
+
+        <div class="verse-card">
+            <p>"E eles cantavam um cântico novo: 'Tu és digno de receber o livro e de abrir os seus selos, pois foste morto, e com o teu sangue compraste para Deus homens de toda tribo, língua, povo e nação'."</p>
+            <span class="reference">Apocalipse 5:9 (O louvor ao Cordeiro vitorioso)</span>
+        </div>
+    </div>
+
+    <!-- Vinculando o arquivo JavaScript externo (no final do body por performance) -->
+    <script src="script.js"></script>
+</body>
+</html>
