@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #2c3e50;
+    --accent-color: #b71c1c;
+    --bg-color: #f9f9f9;
+    --text-color: #333;
+    --card-bg: #ffffff;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.theme-btn {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.theme-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.section-title {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.verse-card {
+    background: var(--card-bg);
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid var(--accent-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.reference {
+    font-weight: bold;
+    color: var(--accent-color);
+    display: block;
+    margin-top: 5px;
+}
+
+/* Regras aplicadas quando a classe .dark-mode estiver ativa */
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --primary-color: #1a252f;
+}
